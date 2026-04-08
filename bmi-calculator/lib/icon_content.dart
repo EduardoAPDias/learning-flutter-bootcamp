@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'constants.dart';
 
 class IconContent extends StatelessWidget {
-
   const IconContent({
     required this.icon,
     required this.label,
@@ -11,11 +11,6 @@ class IconContent extends StatelessWidget {
 
   final FaIconData icon;
   final String label;
-
-  static const labelTextStyle = TextStyle(
-    fontSize: 18.0,
-    color: Color(0xFF8d8E98),
-  );
 
   @override
   Widget build(BuildContext context) {
@@ -31,7 +26,7 @@ class IconContent extends StatelessWidget {
         ),
         Text(
           label,
-          style: labelTextStyle,
+          style: kLabelTextStyle,
         )
       ],
     );
