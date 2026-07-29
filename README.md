@@ -16,7 +16,6 @@ Projetos práticos desenvolvidos durante o curso **The Complete Flutter Developm
 | Xylophone | Instrumento musical interativo | Pacotes externos, audioplayers |
 | Quizzler | App de quiz interativo | Classes, OOP, Widgets customizados |
 | Destini | Jogo de história interativa | Lógica de ramificação, Estado |
-| BMI Calculator | Calculadora de IMC | Widgets customizados, Enums, OOP |
 
 ## Como usar
 
